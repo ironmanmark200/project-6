@@ -72,6 +72,30 @@ caption{
     font-family: Georgia, 'Times New Roman', Times, serif;
     border-radius: 5px;
 }
+    #thumbs, #image {
+width: 700px
+border: solid 1px 000;
+text-align: center;
+margin: 0 auto 0 auto;
+color: #000;
+background: #eee;
+padding: 5px;
+}
+#thumbs {
+margin-top: 10px;
+}
+#thumbs img {
+border: solid 1px #000;
+margin: 5px;
+}
+#image{
+height:400px;
+}
+.instructions{
+font-style:italic;
+}
+
+
 </style>
 </head>
 
@@ -83,6 +107,29 @@ caption{
         <img src="Images/RentAPetP3/RentAPet/AboutUs/button.jpg" alt="Print page" width="200" height="50"
         id="print">
     </div>
+    <div>
+<a href=""
+onmouseover="document.getElementById('logo').src='Images/BackyardBirdLogo2.jpg
+';"
+onmouseout="document.getElementById('logo').src='Images/RentAPetLogo.jpg';
+"> <img src="Images/RentApet/Logo.jpg" alt="Logo" id="logo"></a> </div
+<p class="instructions">
+<div id="thumbs">
+<img src="Images/Thumbnails/Image1Sm.jpg" alt="BaldEagle"
+onmouseover="swapImage(0);" />
+<img src="Images/Thumbnails/Image2Sm.jpg" alt="Hawk"
+onmouseover="swapImage(1);" />
+<img src="Images/Thumbnails/Image3Sm.jpg" alt="HummingBird"
+onmouseover="swapImage(2);" />
+<img src="Images/Thumbnails/Image4Sm.jpg" alt="Owl"
+onmouseover="swapImage(3);" />
+<br />
+</div>
+<div id="image">
+<img id="theImage" src="Images/FullSize/Image1Lg.jpg" alt="Bald Eagle" />
+<h3 id="bottomText">Brave Bald Eagle</h3>
+</div>
+
     <h1 id="top">About Rent A Pet</h1>
     <table>
         <caption>Sales Prices</caption>
